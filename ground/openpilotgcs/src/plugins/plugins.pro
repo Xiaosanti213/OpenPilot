@@ -183,10 +183,10 @@ plugin_logging.depends += plugin_scope
 SUBDIRS += plugin_logging
 
 # GCS Control of UAV gadget
-plugin_gcscontrol.subdir = gcscontrol
-plugin_gcscontrol.depends = plugin_coreplugin
-plugin_gcscontrol.depends += plugin_uavobjects
-SUBDIRS += plugin_gcscontrol
+#plugin_gcscontrol.subdir = gcscontrol
+#plugin_gcscontrol.depends = plugin_coreplugin
+#plugin_gcscontrol.depends += plugin_uavobjects
+#SUBDIRS += plugin_gcscontrol
 
 # Antenna tracker
 #plugin_antennatrack.subdir = antennatrack

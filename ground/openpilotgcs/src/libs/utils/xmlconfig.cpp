@@ -40,6 +40,10 @@
 #include <QPoint>
 #include <QtCore/QUrl>
 
+#ifndef QT_NO_DATASTREAM
+#include <QDataStream>
+#endif
+
 #define NUM_PREFIX "arr_"
 
 QString XmlConfig::rootName = "gcs";

@@ -43,6 +43,10 @@ static PProcessIdToSessionId pProcessIdToSessionId = 0;
 #include <unistd.h>
 #endif
 
+#ifndef QT_NO_DATASTREAM
+#include <QDataStream>
+#endif
+
 namespace SharedTools {
 const char *QtLocalPeer::ack = "ack";
 

@@ -61,6 +61,9 @@
 #include <coreplugin/icore.h>
 #include <coreplugin/threadmanager.h>
 #include <math.h>
+#ifndef QT_NO_DATASTREAM
+#include <QDataStream>
+#endif
 
 void TraceBuf(const char *buf, int len);
 
