@@ -31,23 +31,23 @@
 
 namespace OpenPilot {
 class ThermalCalibration {
-    static const int GYRO_X_POLY_DEGREE  = 2;
-    static const int GYRO_Y_POLY_DEGREE  = 2;
-    static const int GYRO_Z_POLY_DEGREE  = 2;
+    static constexpr int GYRO_X_POLY_DEGREE  = 2;
+    static constexpr int GYRO_Y_POLY_DEGREE  = 2;
+    static constexpr int GYRO_Z_POLY_DEGREE  = 2;
 
-    static const int ACCEL_X_POLY_DEGREE = 1;
-    static const int ACCEL_Y_POLY_DEGREE = 1;
-    static const int ACCEL_Z_POLY_DEGREE = 1;
+    static constexpr int ACCEL_X_POLY_DEGREE = 1;
+    static constexpr int ACCEL_Y_POLY_DEGREE = 1;
+    static constexpr int ACCEL_Z_POLY_DEGREE = 1;
 
-    static const int BARO_PRESSURE_POLY_DEGREE = 3;
+    static constexpr int BARO_PRESSURE_POLY_DEGREE = 3;
     // TODO: determine max allowable relative error
-    static const double BARO_PRESSURE_MAX_REL_ERROR = 1E-6f;
-    static const double ACCEL_X_MAX_REL_ERROR  = 1E-6f;
-    static const double ACCEL_Y_MAX_REL_ERROR  = 1E-6f;
-    static const double ACCEL_Z_MAX_REL_ERROR  = 1E-6f;
-    static const double GYRO_X_MAX_REL_ERROR   = 1E-6f;
-    static const double GYRO_Y_MAX_REL_ERROR   = 1E-6f;
-    static const double GYRO_Z_MAX_REL_ERROR   = 1E-6f;
+    static constexpr double BARO_PRESSURE_MAX_REL_ERROR = 1E-6f;
+    static constexpr double ACCEL_X_MAX_REL_ERROR  = 1E-6f;
+    static constexpr double ACCEL_Y_MAX_REL_ERROR  = 1E-6f;
+    static constexpr double ACCEL_Z_MAX_REL_ERROR  = 1E-6f;
+    static constexpr double GYRO_X_MAX_REL_ERROR   = 1E-6f;
+    static constexpr double GYRO_Y_MAX_REL_ERROR   = 1E-6f;
+    static constexpr double GYRO_Z_MAX_REL_ERROR   = 1E-6f;
 public:
 
     /**

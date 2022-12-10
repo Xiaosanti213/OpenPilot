@@ -54,10 +54,10 @@ private:
     QString m_stabilizationObjectsString;
 
     // Milliseconds between automatic 'Instant Updates'
-    static const int AUTOMATIC_UPDATE_RATE   = 500;
+    static constexpr int AUTOMATIC_UPDATE_RATE   = 500;
 
-    static const int EXPO_CURVE_POINTS_COUNT = 100;
-    static const double EXPO_CURVE_CONSTANT  = 1.00695;
+    static constexpr int EXPO_CURVE_POINTS_COUNT = 100;
+    static constexpr double EXPO_CURVE_CONSTANT  = 1.00695;
 
     int boardModel;
     int m_stabSettingsBankCount;
